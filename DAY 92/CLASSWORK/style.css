@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 99vh;
+    background-color: #c9d1c8;
+    font-family:"nunito";
+}
+
+
+#nav{
+    width: 100%;
+    height: 120px;
+    background-color: #304040;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#img-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 100px;
+}
+
+#nav-goa-img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    transition: 0.8s;
+}
+
+ul:hover{
+    transform: scale(1.2);
+}
+
+li:hover{
+    transform: scale(1.1);
+}
+
+.links-a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    transition: 0.8s;
+}
+
+a:hover{
+    color: #c9d1c8;
+    transform: scale(1.2);
+}
+
+#nav-p{
+    color: white;
+    font-size: 25px;
+    width: max-content;
+}
+
+#nav-btns-div{
+    margin-right: 100px;
+}
+
+.register-btns-div{
+    font-size: 19px;
+    padding: 19px 30px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+.register-btns-div:hover{
+    transform: scale(1.15);
+}
+
+#register-btn{
+    background-color: white;
+    transition: 0.5s;
+}
+
+#login-btn{
+    background-color: #04202c;
+    color: white;
+    transition: 0.5s;
+}
+
+#register-btn:hover {
+    background-color: #04202c;
+    color: white;
+}
+
+#login-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/* main style */
+
+#main{
+    width: 100%;
+    height: 81.5%;
+}
+
+
+/* upper div's style */
+#parent-upper-div{
+    width: 100%;
+    height: 82.6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+
+.upper-divs-class{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    border-radius: 15px;
+    background-color: #5b7064;
+    box-shadow: 3px 3px 5px black;
+}
+
+/* Car div style */
+#car-sale-img{
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+#car-sale-p{
+    color: white;
+    font-size: 25px; 
+}
+
+#car-p{
+    color: white;
+    font-size: 27px;
+}
+
+/* Food div style */
+#food-sale-img{
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+#food-sale-p{
+    color: white;
+    font-size: 25px;
+}
+
+#food-p{
+    color: white;
+    font-size: 27px;
+}
+
+/* Sport div style */
+#sport-sale-img{
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+#sport-sale-p{
+    color: white;
+    font-size: 25px;
+}
+
+#sport-p{
+    color: white;
+    font-size: 27px;
+}
+
+/* Household div style */
+#Household-sale-img{
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+#Household-sale-p{
+    color: white;
+    font-size: 25px;
+}
+
+#Household-p{
+    color: white;
+    font-size: 27px;
+}
+
+.divs-a{
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.divs-a:hover{
+    transform: scale(1.1);
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#footer-p{
+    user-select: none; /* For modern browsers */
+    -webkit-user-select: none; /* For Safari */
+    -moz-user-select: none; /* For Firefox */
+    -ms-user-select: none
+}
+
+#marque-div{
+    display: flex;
+    flex-direction: row;
+    gap: 175px;
+    align-items: center;
+}
+
+#marque-p1{
+    user-select: none; 
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none;
+    font-size: 19px;
+}
+
+.marque-p{
+    font-size: 19px;
+}
+
+/* @media only screen and (max-width:1110px){
+    #parent-upper-div{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    #main{
+        height: max-content;
+    }
+    #footer{
+        position: relative;
+        top: 100px;
+    }
+} */
+
+@media only screen and (max-width:1114px){
+    #img-div{
+        display: none;
+    }
+
+    #nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width:1025px){
+    #parent-upper-div{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    #main{
+        height: max-content;
+    }
+    #footer{
+        position: relative;
+        top: 80px;
+    }
+}
+
+@media only screen and (max-width:825px){
+    #nav-btns-div{
+        position: relative;
+        left: 80px;
+    }
+    ul{
+        position: relative;
+        left: 15px;
+    }
+}
+
+@media only screen and (max-width:788px){
+    #nav-btns-div{
+        display: none;
+    }
+    ul{
+        align-items: center;
+    }
+    #first-link{
+        position: relative;
+        bottom: 25px;
+        left: 105px;
+    }
+    
+    #second-link{
+        position: relative;
+        top: 15px;
+    }
+
+    #third-link{
+        position: relative;
+        bottom: 25px;
+        left: 20px;
+    }
+    #fourth-link{
+        position: relative;
+        top: 20px;
+        right: 70px;
+    }
+}
+
