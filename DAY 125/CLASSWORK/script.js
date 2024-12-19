@@ -4,8 +4,6 @@ const server = http.createServer((req, res) => {
     res.end("Goa Is The Best")
 })
 
-const PORT = 5000
+const PORT = 5
 
-server.listen(PORT, ()=>{
-    console.log(`nodemon app${PORT}`)
-})
+server.listen(PORT)
