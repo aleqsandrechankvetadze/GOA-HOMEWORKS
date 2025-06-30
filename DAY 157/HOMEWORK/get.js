@@ -1,0 +1,5 @@
+// მაგალითი არის ლინკის
+
+fetch("https://jsonplaceholder.typicode.com/posts")
+  .then(res => res.json())
+  .then(data => console.log("GET result:", data));
